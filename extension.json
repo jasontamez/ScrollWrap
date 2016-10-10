@@ -1,0 +1,51 @@
+{
+	"name": "ScrollWrap",
+	"version": "0.1.0",
+	"author": [
+		"Jason Tamez"
+	],
+	"url": "https://github.com/jasontamez/ScrollWrap",
+	"descriptionmsg": "scrollwrap-desc",
+	"license-name": "GPL v2",
+	"type": "parserhook",
+	"AutoloadClasses": {
+		"ScrollWrapHooks": "ScrollWrap.hooks.php"
+	},
+	"config": {
+		"ScrollWrapEnableFoo": true
+	},
+	"ExtensionMessagesFiles": {
+		"ScrollWrapAlias": "ScrollWrap.i18n.alias.php"
+	},
+	"Hooks": {
+		
+		"ParserFirstCallInit": [
+			"ScrollWrapHooks::onParserFirstCallInit"
+		]
+	},
+	"MessagesDirs": {
+		"ScrollWrap": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.scrollWrap.foo": {
+			"scripts": [
+				"modules/ext.scrollWrap.js",
+				"modules/ext.scrollWrap.foo.js"
+			],
+			"styles": [
+				"modules/ext.scrollWrap.foo.css"
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ScrollWrap"
+	},
+	"SpecialPages": {
+	},
+	"manifest_version": 1
+}

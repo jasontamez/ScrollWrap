@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"scrollwrap-desc": "A tag to enclose a wide item with a 100% div, letting the item scroll within the div.",
+	"scrollwrap-i18n-welcome": "Welcome to the localization file of the ScrollWrap extension."
+}

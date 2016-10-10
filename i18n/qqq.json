@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender",
+			"Amire80",
+			"Fhocutt",
+			"Liuxinyu970226"
+		]
+	},
+	"scrollwrap-desc": "{{desc|name=ScrollWrap|url=https://github.com/jasontamez/ScrollWrap }}",
+	"scrollwrap-i18n-welcome": "Used to greet the user when reading the i18n/??.json file."
+}
